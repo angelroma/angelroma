@@ -1,16 +1,16 @@
-# Personal Portfolio Design
+# GitHub Profile README Design
 
 Date: 2026-05-15
 
 ## Goal
 
-Build `angelroma.github.io` as a modern developer portfolio for the GitHub user `angelroma`. The site should present Angel Roma's developer identity, featured projects, experience so far, GitHub activity, and contact links in a concise, recruiter-friendly format.
+Build a GitHub profile-style `README.md` for the GitHub user `angelroma`. The README should present Angel Roma's developer identity, featured projects, experience so far, GitHub activity, and contact links in a concise format inspired by strong GitHub profile READMEs.
 
-The GitHub repository should be named `angelroma.github.io` so GitHub Pages publishes it as the user site at `https://angelroma.github.io`.
+For GitHub profile behavior, the repository should be named exactly `angelroma`. A repository named `angelroma.github.io` is for GitHub Pages, not the GitHub profile README.
 
 ## Audience
 
-The primary audience is recruiters, hiring managers, and technical reviewers who need to quickly understand:
+The primary audience is recruiters, hiring managers, and technical reviewers viewing the GitHub profile. They need to quickly understand:
 
 - What Angel builds.
 - Which projects best represent his work.
@@ -20,128 +20,80 @@ The primary audience is recruiters, hiring managers, and technical reviewers who
 
 ## Tone And Style
 
-The site should feel like a modern developer portfolio: technical, sharp, readable, and professional. It should avoid a generic corporate resume look while still being easy to scan.
+The README should feel like a modern developer profile: technical, direct, readable, and professional. It should avoid a marketing-style portfolio page and instead use a GitHub-native structure with concise sections, links, badges, and bullets.
 
 The visual direction should prioritize:
 
-- Clean layout and strong hierarchy.
+- Clean Markdown hierarchy.
 - Project-first presentation.
 - Clear links to GitHub and LinkedIn.
-- Restrained use of motion or decorative elements.
-- Responsive behavior for both desktop and mobile.
+- Technology badges.
+- A contribution graph image.
 
 ## Site Structure
 
-The first version will be a single-page portfolio. This keeps the site easy to review and simple to maintain while leaving room to expand later.
+The first version will be a single `README.md`, not a Vite/React app and not a GitHub Pages site.
 
-### Hero / Summary
+### Intro / Summary
 
-The hero section introduces Angel with a short summary of who he is, what he builds, and where he is heading as a developer.
+The opening section introduces Angel with a short summary of who he is, what he builds, and where he is heading as a developer.
 
 It should include primary links to:
 
 - GitHub profile.
 - LinkedIn profile.
-- Optional resume or email link if Angel wants to make one public.
+- Optional email link only if Angel wants it public.
 
-### Featured Projects
+### Start Here
 
-The projects section shows local, curated project cards. Initial examples include:
+The "Start Here" section should point readers to the most important destinations:
+
+- QueHay.
+- Porky Finance.
+- GitHub profile.
+- LinkedIn profile.
+
+### Current Projects
+
+The project section uses concise Markdown bullets. Initial examples include:
 
 - QueHay.
 - Porky Finance.
 
-Each project card should support:
+Each project item should support:
 
 - Project name.
 - Short description.
-- Tech stack.
-- Status.
 - GitHub link.
-- Demo or live link if available.
 - A short note on what Angel built or contributed.
-
-Project content should be stored locally in a structured format so updates are simple and do not require changing layout code.
 
 ### Experience
 
-The experience section presents Angel's experience so far in a compact list or timeline. It can include work history, internships, freelance work, major personal projects, learning milestones, or practical contributions.
-
-Each experience item should support:
-
-- Role or activity title.
-- Organization, client, or context.
-- Date range.
-- Short description.
-- Key technologies or responsibilities when useful.
+The experience section presents Angel's experience so far in compact bullets. It can include practical project experience, learning milestones, GitHub practice, freelance/client work if relevant, internships, or work history.
 
 ### GitHub Contributions
 
-The site will use a semi-automated GitHub presence:
-
-- Project and experience content stays local and curated.
-- GitHub contribution visuals or stats are embedded or generated.
-- The first version can use embedded generated GitHub visuals.
-- The structure should allow a future GitHub Action to fetch and refresh static GitHub data at build time.
-
-This avoids relying on fragile browser-side API calls and keeps the page dependable on GitHub Pages.
+The README embeds a GitHub contribution graph image that links back to the GitHub profile.
 
 ### Contact
 
-The contact section should be minimal and direct. LinkedIn is the primary contact channel. GitHub should also be present. Email can be included only if Angel wants it public.
+The contact section should be minimal and direct. LinkedIn is the primary contact channel. GitHub should also be present.
 
 ## Technical Approach
 
-Use a static-first frontend suitable for GitHub Pages. The recommended implementation is Vite + React because it provides a clean developer workflow, reusable components, and easy future expansion.
-
-Content should be separated from presentation:
-
-- Project data in a local structured file.
-- Experience data in a local structured file.
-- Site/profile metadata in a local structured file.
-
-This keeps future edits focused on content rather than component markup.
-
-## Components
-
-The initial component set should include:
-
-- Layout shell.
-- Header/navigation.
-- Hero summary.
-- Project card.
-- Projects section.
-- Experience item.
-- Experience section.
-- GitHub activity section.
-- Contact section.
-- Footer.
-
-Components should stay small and focused. Styling should follow one consistent design system rather than one-off section styles.
-
-## Data Flow
-
-All curated content loads from local static data at build time. The React app renders the page from that data.
-
-GitHub activity initially uses embedded generated visuals or static generated assets. A future GitHub Action can replace or supplement those embeds by writing generated data into the static site before deployment.
+Use plain Markdown in `README.md`. No app framework, package manager, build system, generated HTML, or GitHub Pages deployment is needed for the current direction.
 
 ## Error Handling
 
-Because the first version is static, error handling is mostly about graceful fallbacks:
-
-- Project cards should still look complete if a demo link is missing.
-- Contact links should be optional except for LinkedIn and GitHub.
-- GitHub visuals should have fallback labels or links so the section remains useful if an embedded image fails.
+Because the README is static Markdown, graceful behavior comes from keeping links clear and using descriptive image alt text. If the contribution graph image fails, the image remains a link to the GitHub profile.
 
 ## Testing And Verification
 
 Before considering implementation complete:
 
-- Run the project build command.
-- Verify the page locally in a browser.
-- Check responsive behavior on desktop and mobile widths.
-- Confirm all external links point to the intended destinations.
-- Confirm the GitHub Pages deployment path works for `angelroma.github.io`.
+- Review `README.md` for spelling, stale links, and broken Markdown.
+- Confirm external links point to the intended destinations.
+- Confirm no HTML app/tooling files remain in the repo.
 
 ## Out Of Scope For First Version
 
@@ -151,7 +103,8 @@ The first version will not include:
 - Authentication.
 - A CMS.
 - A contact form backend.
-- Fully dynamic browser-side GitHub API loading.
-- Multi-page routing unless future content requires it.
+- A Vite/React app.
+- GitHub Pages HTML.
+- Multi-page routing.
 
 These can be revisited after the core portfolio is live.
