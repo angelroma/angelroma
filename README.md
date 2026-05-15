@@ -25,11 +25,3 @@ Software Engineer with 7+ years of experience building cloud-based, full-stack, 
 
 - **[QueHay](https://quehay.me)** - Building the product direction, interface structure, and core user-facing experience. [GitHub](https://github.com/angelroma/quehay)
 - **[Porky Finance](https://porkyfinance.com)** - Designing finance-focused workflows and turning them into a practical app experience. [GitHub](https://github.com/angelroma/porky-finance)
-
-## GitHub Contributions
-
-[![angelroma GitHub contribution graph](https://ghchart.rshah.org/2f8f83/angelroma)](https://github.com/angelroma)
-
----
-
-This README is meant to work as a GitHub profile page. For that behavior, the repository should be named exactly `angelroma`.
