@@ -1,17 +1,20 @@
-# Hi, I'm Angel
+# Hi, I'm Miguel Rodriguez
 
-Mexico | Developer building practical web and finance tools | `angelroma`
-
-I'm building real projects to turn everyday problems into usable software. My current work focuses on product thinking, clear interfaces, and steady improvement through shipped projects.
+Software Engineer with 7+ years of experience building cloud-based, full-stack, hybrid mobile, and web applications. I focus on practical product delivery, reliable distributed systems, and clear user experiences across JavaScript, TypeScript, C#, React, React Native, Node.js, .NET, and cloud infrastructure.
 
 ![React](https://img.shields.io/badge/React-20232a?style=flat&logo=react&logoColor=61dafb)
+![React Native](https://img.shields.io/badge/React%20Native-20232a?style=flat&logo=react&logoColor=61dafb)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178c6?style=flat&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-f7df1e?style=flat&logo=javascript&logoColor=111)
+![C#](https://img.shields.io/badge/C%23-512bd4?style=flat&logo=dotnet&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232f3e?style=flat&logo=amazonwebservices&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-f38020?style=flat&logo=cloudflare&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-f05032?style=flat&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
-![Product Design](https://img.shields.io/badge/Product%20Design-0f766e?style=flat)
+![Product Delivery](https://img.shields.io/badge/Product%20Delivery-0f766e?style=flat)
 
-> I like building focused products with simple workflows, useful interfaces, and a clear reason to exist.
+> I build focused software with reliable architecture, useful interfaces, and measurable product impact.
 
 ## Start Here
 
