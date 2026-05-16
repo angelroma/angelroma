@@ -21,12 +21,13 @@ Software Engineer with 10+ years of experience building cloud-based, full-stack,
 ![Docker](https://img.shields.io/badge/Docker-2496ed?style=flat&logo=docker&logoColor=white)
 ![CI/CD](https://img.shields.io/badge/CI%2FCD-0f766e?style=flat)
 
-## Selected Client Work
+## Relevant Experience
 
-Client work delivered through consulting/employer teams.
-
-- **Webcreek** - Supported client project work for ![84 Lumber](https://img.shields.io/badge/84%20Lumber-client%20work-6b7280?style=flat)
-- **Globant** - Supported client project work for ![Disney](https://img.shields.io/badge/Disney-client%20work-2563eb?style=flat) ![Funko](https://img.shields.io/badge/Funko-client%20work-ec4899?style=flat)
+- **Webcreek**
+  - 84 Lumber
+- **Globant**
+  - Disney
+  - Funko
 
 ## Current Projects
 
