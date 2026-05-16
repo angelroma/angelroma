@@ -1,6 +1,6 @@
 # Hi, I'm Miguel Rodriguez
 
-Software Engineer with 7+ years of experience building cloud-based, full-stack, hybrid mobile, and web applications. I focus on practical product delivery, reliable distributed systems, and clear user experiences across JavaScript, TypeScript, C#, React, React Native, Node.js, .NET, and cloud infrastructure.
+Software Engineer with 10+ years of experience building cloud-based, full-stack, hybrid mobile, and web applications. I focus on practical product delivery, reliable distributed systems, and clear user experiences across JavaScript, TypeScript, C#, React, React Native, Node.js, .NET, and cloud infrastructure.
 
 ## Connect
 
