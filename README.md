@@ -32,4 +32,4 @@ Software Engineer with 10+ years of experience building cloud-based, full-stack,
 ## Current Projects
 
 - **[QueHay](https://quehay.me)** - Building the product direction, interface structure, and core user-facing experience. (Under Development)
-- **[Porky Finance](https://porkyfinance.com)** - Designing finance-focused workflows and turning them into a practical app experience. (Under Play Console Review: https://play.google.com/apps/testing/com.porkyfinance.app)
+- **[Porky Finance](https://porkyfinance.com)** - Designing finance-focused workflows and turning them into a practical app experience. (Under Play Console Review)
